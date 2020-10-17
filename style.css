@@ -1,0 +1,85 @@
+body div:first-child {
+  position: relative;
+  margin: 50px auto;
+  margin-bottom: 0px;
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  border: 5px solid red;
+  border-bottom: none;
+  border-radius: 20px 20px 0px 0px;
+  padding-bottom: 30px;
+}
+img {
+  border: 2px solid rgb(245, 1, 1);
+  border-radius: 50%;
+  height: 60px;
+  margin: 5px;
+  background-color: white;
+}
+body div #signal {
+  border: none;
+  border-radius: 0px;
+  height: 70px;
+  width: 200px;
+}
+#cont {
+  position: relative;
+  padding-left: 70px;
+  /* border: 1px solid white; */
+  background-color: rgb(0, 0, 0);
+}
+#cont button {
+  width: 35px;
+  height: 3s5px;
+  font-size: 1em;
+  border-radius: 50%;
+  padding: 5px;
+}
+#cont button i {
+  color: red;
+  font-size: 1em;
+}
+#cont span i {
+  position: absolute;
+  top: 10px;
+  color: rgb(255, 6, 6);
+}
+#cont span input {
+  width: 70px;
+  vertical-align: middle;
+}
+#playlist {
+  margin: 0 auto;
+  width: 300px;
+  border: 5px solid red;
+  padding: 10px;
+  border-top: none;
+  border-radius: 0px 0px 20px 20px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(248, 223, 0);
+}
+#playlist span {
+  display: inline-block;
+  border: 1px solid white;
+  width: 97%;
+  margin-bottom: 2px;
+  padding: 3px;
+  transition: background-color 0.5s linear;
+}
+#playlist span:hover {
+  background-color: rgb(250, 37, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+#playlist #head {
+  display: block;
+  background-color: #985e5e;
+  height: 20px;
+  width: 98%;
+  border-radius: 0px;
+  color: white;
+  border: none;
+}
